@@ -7,6 +7,7 @@ import Seo from '../../components/seo'
 
 
 const BlogPage = ({data}) => {
+    console.log(data)
     return (
         <Layout pageTitle={"My Blog Posts"}>
              {
@@ -35,6 +36,7 @@ export const query = graphql`
             }
           }
     }`
+
 
 export const Head = () => {
     return (
